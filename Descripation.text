@@ -1,0 +1,15 @@
+
+#classification
+multi-label_classifiers.py belongs to Nyamawe that oversample all dataset.
+Edited Version.py is a similar model to multi-label_classifiers.py.
+BalancingTraining.py is a model where I work on.
+
+
+
+#dataset
+"TheDataset - EMSE-Revised-rawData.xlsx" : is a raw dataset that has multi-labels/multi-classes
+"Nyamawe-work.csv" : is a dataset that has single labels/ multi-classes
+"FR-Dataset.csv" : is a dataset that has single label {'Extract Method', 'Inline Method', 'Move Method', 'Rename Method'} with no duplication in data points.
+
+
+Our work relies on BalancingTraining.py to consume FR-Dataset.csv.
